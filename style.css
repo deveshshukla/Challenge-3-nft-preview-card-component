@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
-/* Weights: 300, 400, 600 */
 /*
+    Weights: 300, 400, 600
     Font size (paragraph): 18px
     Mobile: 375px
     Desktop: 1440px
     font-family: 'Outfit', sans-serif;
 */
-/**/
 
 :root {
   /*Primary*/
@@ -131,8 +130,13 @@ body {
   vertical-align: middle;
 }
 /*Horizpntal Lines*/
-.line {
+hr {
   margin-top: 1.5rem;
+  border: 0;
+  clear:both;
+  display:block;               
+  background-color: var(--line-dark-blue);
+  height: 1px;
 }
 /*Creator Desc*/
 .creatorDesc {
